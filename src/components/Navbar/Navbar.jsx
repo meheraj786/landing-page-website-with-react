@@ -4,23 +4,30 @@ import Flex from '../Flex/Flex'
 
 const Navbar = () => {
   return (
-   <Container>
-      <ul className="flex">
-        <li>Hello</li>
-        <li>world</li>
-        <li>universe</li>
-        <li>magic</li>
-        <li>galaxy</li>
-      </ul>
-      <Flex direction="row" gap="0px" justify="center" items="start">
+    <Container>
+      <Flex justifyContent="center" alignItems='center'>
+        <div className="logo">
+          {/* <img src="" alt="#" /> */}
+          <span className="font-bold text-xl">Logo</span>
+        </div>
+        
+        <ul className='flex gap-[50px]'>
+          <li>Hello</li>
+          <li>World</li>
+          <li>Universe</li>
+          <li>Magic</li>
+          <li>Galaxy</li>
+        </ul>
 
-
-      <p>Hello</p>
-      <p>World</p>
-      <p>Universe</p>
+        <div className="buttons">
+          <Flex gap='5'>
+            <a href="#">Log in</a>
+            <button className="bg-blue-500 text-white px-4 py-1 rounded">Register</button>
+          </Flex>
+        </div>
       </Flex>
-   </Container>
-  )
-}
+    </Container>
+  );
+};
 
-export default Navbar
+export default Navbar;
