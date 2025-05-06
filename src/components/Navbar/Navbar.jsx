@@ -5,13 +5,15 @@ import Logo from '../Logo/Logo';
 
 const Navbar = () => {
   return (
+    <div className="navbar absolute top-8
+    w-full">
     <Container>
-      <Flex justifyContent="space-between" alignItems='center'>
+      <Flex className="justify-between items-center" >
         <div className="logo ">
           <Logo/>
         </div>
         
-        <ul className='flex gap-[50px] '>
+        <ul className='flex text-white gap-[50px] items-center'>
           <li>Hello</li>
           <li>World</li>
           <li>Universe</li>
@@ -20,13 +22,15 @@ const Navbar = () => {
         </ul>
 
         <div className="buttons">
-          <Flex gap='20px'>
-            <a href="#">Log in</a>
+          <Flex className="gap-[20px] justify-center items-center">
+            <a className='text-white' href="#">Log in</a>
             <button className="bg-secondary font-medium px-12 text-[18px] py-5 rounded-[6px]">Register</button>
           </Flex>
         </div>
       </Flex>
     </Container>
+
+    </div>
   );
 };
 
