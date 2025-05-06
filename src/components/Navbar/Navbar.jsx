@@ -13,12 +13,14 @@ const Navbar = () => {
           <Logo/>
         </div>
         
-        <ul className='flex text-white gap-[50px] items-center'>
+        <ul>
+          <Flex className="text-white gap-[50px] items-center">
           <li>Hello</li>
-          <li>World</li>
-          <li>Universe</li>
-          <li>Magic</li>
-          <li>Galaxy</li>
+          <li>Features</li>
+          <li>Service</li>
+          <li>Pages</li>
+          <li>Blog</li>
+          </Flex>
         </ul>
 
         <div className="buttons">
