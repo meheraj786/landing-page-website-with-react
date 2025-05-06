@@ -5,10 +5,10 @@ import Logo from '../Logo/Logo';
 
 const Navbar = () => {
   return (
-    <div className="navbar absolute top-8
+    <div className="navbar font-secondary absolute top-8
     w-full">
     <Container>
-      <Flex className="justify-between items-center" >
+      <Flex className="justify-between" >
         <div className="logo ">
           <Logo/>
         </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
         </ul>
 
         <div className="buttons">
-          <Flex className="gap-[20px] justify-center items-center">
+          <Flex className="gap-[20px] justify-center">
             <a className='text-white' href="#">Log in</a>
             <button className="bg-secondary font-medium px-12 text-[18px] py-5 rounded-[6px]">Register</button>
           </Flex>
