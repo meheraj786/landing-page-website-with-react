@@ -3,11 +3,10 @@ import React from 'react';
 const Flex = ({
   children,
   flexDirection = 'row',
-  justifyContent = 'flex-start',
-  alignItems = 'stretch',
+  justifyContent = 'center',
+  alignItems = 'center',
   gap = '0',
-  wrap = 'nowrap',
-  style = {},
+  wrap = 'wrap',
   ...props
 }) => {
   const flexStyles = {
@@ -17,7 +16,6 @@ const Flex = ({
     alignItems,
     gap,
     flexWrap: wrap,
-    ...style,
   };
 
   return (
