@@ -3,6 +3,7 @@ import Flex from '../Flex/Flex'
 import icon1 from '../../assets/contentIcon1.png'
 import icon2 from '../../assets/contentIcon2.png'
 import icon3 from '../../assets/contentIcon3.png'
+import contentElips from '../../assets/contentElips.png'
 import Container from '../Container/Container'
 
 const Content = () => {
@@ -43,9 +44,13 @@ const Content = () => {
   ))
 }
       </Flex>
-      <div className="stats">
+      <div className="stats relative">
         <Flex>
         <div className="stats-left">
+          <img className='absolute left-[-59px]' src={contentElips} alt="" />
+          <div className="box relative w-[447px] h-[651px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0 border-[#2290F5] ml-[57px] bg-white">
+
+          </div>
 
         </div>
         <div className="stats-right">
