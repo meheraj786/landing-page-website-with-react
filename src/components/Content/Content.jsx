@@ -43,6 +43,16 @@ const Content = () => {
   ))
 }
       </Flex>
+      <div className="stats">
+        <Flex>
+        <div className="stats-left">
+
+        </div>
+        <div className="stats-right">
+
+        </div>
+        </Flex>
+      </div>
       </Container>
     </div>
   )
