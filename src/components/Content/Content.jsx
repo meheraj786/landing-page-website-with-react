@@ -4,7 +4,11 @@ import icon1 from '../../assets/contentIcon1.png'
 import icon2 from '../../assets/contentIcon2.png'
 import icon3 from '../../assets/contentIcon3.png'
 import contentElips from '../../assets/contentElips.png'
+import check from '../../assets/check.png'
+import subCir from '../../assets/subscribersCircles.png'
+import stats from '../../assets/stats.png'
 import Container from '../Container/Container'
+import Button from "../../layout/Button/Button"
 
 const Content = () => {
   const cards= [
@@ -47,11 +51,80 @@ const Content = () => {
       <div className="stats relative">
         <Flex>
         <div className="stats-left">
-          <img className='absolute left-[-59px]' src={contentElips} alt="" />
-          <div className="box relative w-[447px] h-[651px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0 border-[#2290F5] ml-[57px] bg-white">
+          <img className='absolute top-[48px] left-[-59px]' src={contentElips} alt="" />
+          <div className="box relative w-[447px] h-[651px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0  pl-[34px] border-[#2290F5] ml-[57px] bg-white">
+            <div className="subscribers w-[357px] h-[138px] top-[48px] shadow-md bg-white py-[18px] px-[22px] absolute left-[-76px]">
+              <p className='font-semibold text-[14px] leading-[18px] text-text'>New Subscribers</p>
+              <Flex className="justify-between ">
+                <div>
+                <h2 className='text-text font-primary text-[31px] font-bold leading-[36px] mt-[21px] mb-[5px]'>2010+</h2>
+                <span className='text-[#FF7364] font-primary text-[12px] leading-[18px]'>32% this month</span>
+                </div>
+                <img src={subCir} alt="" />
+              </Flex>
+            </div>
+            <div className="in-progress text-description w-[295px] mt-[216px]">
+              <Flex className="justify-between px-[13px]">
+              <p>In Progress</p>
+              <div>
+              <span>+</span>
+              <span>---</span>
+              </div>
+              </Flex>
+              <hr />
+              <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  h-[138px] shadow-md  py-[18px] px-[13px]">
+                <p className='mb-[20px]'>Customer Experiance Insight <span>---</span></p>
+                <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
+                <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>
+                <Flex className="justify-between mt-[20px]">
+                  <div>
+                    <img src="" alt="" />
+                    <p>Starday</p>
+                  </div>
+                  <div>
+                    <span>50%</span>
+                    <img src="" alt="" />
+                  </div>
+                </Flex>
+              </div>
+            </div>
+            <div className="in-progress text-description w-[295px] mt-[35px]">
+              <Flex className="justify-between px-[13px]">
+              <p>In Progress</p>
+              <div>
+              <span>+</span>
+              <span>---</span>
+              </div>
+              </Flex>
+              <hr />
+              <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  h-[138px] shadow-md  py-[18px] px-[13px]">
+                <p className='mb-[20px]'>Customer Experiance Insight <span>---</span></p>
+                <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
+                <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>
+                <Flex className="justify-between mt-[20px]">
+                  <div>
+                    <img src="" alt="" />
+                    <p>Starday</p>
+                  </div>
+                  <div>
+                    <span>50%</span>
+                    <img src="" alt="" />
+                  </div>
+                </Flex>
+              </div>
+            </div>
+          <div className="total-project shadow-md absolute right-[-190px] z-10 bg-white top-[108px] py-[22px] px-[25px]">
+            <h2 className='mb-[24px]'>Total Project Data</h2>
+            <img src={stats} alt="" />
 
           </div>
+          <div className="project-notify shadow-md absolute right-[-190px] z-10 bg-white top-[368px] py-[22px] px-[25px] text-center">
+            <img className="mx-auto" src={check} alt="" />
+            <h2 className='w-[231px] text-description mt-[22px] mb-[16px]'>Your analytics research project is complete</h2>
+            <Button className="bg-secondary text-black">Project Notify</Button>
 
+          </div>
+          </div>
         </div>
         <div className="stats-right">
 
