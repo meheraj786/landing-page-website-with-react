@@ -5,7 +5,7 @@ import Logo from '../Logo/Logo';
 
 const Navbar = () => {
   return (
-    <div className="navbar font-secondary absolute top-8
+    <div className="navbar z-10 font-secondary absolute top-8
     w-full">
     <Container>
       <Flex className="justify-between" >
