@@ -3,6 +3,9 @@ import Flex from '../Flex/Flex'
 import icon1 from '../../assets/contentIcon1.png'
 import icon2 from '../../assets/contentIcon2.png'
 import icon3 from '../../assets/contentIcon3.png'
+import rocketIcon from '../../assets/rocketIcon.png'
+import lockIcon from '../../assets/lockIcon.png'
+import settingIcon from '../../assets/settingIcon.png'
 import contentElips from '../../assets/contentElips.png'
 import check from '../../assets/check.png'
 import subCir from '../../assets/subscribersCircles.png'
@@ -28,6 +31,23 @@ const Content = () => {
     description:"Sell your data directly: The most straightforward method is to sell your data directly to another",
   },
 ]
+const features=[
+  {
+    img: rocketIcon,
+    title: "Fast and Easy to Use",
+    description: "Easily to convert API with just a few clicks"
+  },
+  {
+    img: lockIcon,
+    title: "Safely Security",
+    description: "All customer data is encrypted"
+  },
+  {
+    img: settingIcon,
+    title: "Get Organized",
+    description: "From lists to boards, organize work your way."
+  },
+]
   return (
     <div className="content pt-[336px]">
       <Container>
@@ -49,13 +69,13 @@ const Content = () => {
 }
       </Flex>
       <div className="stats relative">
-        <Flex>
+        <Flex className="justify-between">
         <div className="stats-left">
           <img className='absolute top-[48px] left-[-59px]' src={contentElips} alt="" />
           <div className="box relative w-[447px] h-[651px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0  pl-[34px] border-[#2290F5] ml-[57px] bg-white">
             <div className="subscribers w-[357px] h-[138px] top-[48px] shadow-md bg-white py-[18px] px-[22px] absolute left-[-76px]">
               <p className='font-semibold text-[14px] leading-[18px] text-text'>New Subscribers</p>
-              <Flex className="justify-between ">
+              <Flex className="justify-between">
                 <div>
                 <h2 className='text-text font-primary text-[31px] font-bold leading-[36px] mt-[21px] mb-[5px]'>2010+</h2>
                 <span className='text-[#FF7364] font-primary text-[12px] leading-[18px]'>32% this month</span>
@@ -126,8 +146,22 @@ const Content = () => {
           </div>
           </div>
         </div>
-        <div className="stats-right">
-
+        <div className="stats-right w-[40%]">
+          <h2 className='font-primary mb-[64px] text-bold text-text leading-[58px] tracking-[-1px] text-[46px] w-[553px]' >We provide features for your Business</h2>
+  <Flex className="justify-center gap-x-[96px] gap-y-[40px] items-end">
+  {
+    features.map((feature)=>(
+      <div className="feature-card w-[225px]">
+        <img src={feature.img} alt="" />
+        <h3 className='mt-[14px] mb-[6px] text-[22px] font-primary font-bold leading-[34px] tracking-[-0.5%] text-text'>{feature.title}</h3>
+        <p className='text-[22px] font-secondary font-regular leading-[32px]  text-description'>{feature.description}</p>
+      </div>
+    ))
+  }
+  <div className=' w-[225px]'>
+  <Button className="text-white">Get Started</Button>
+  </div>
+  </Flex>
         </div>
         </Flex>
       </div>
