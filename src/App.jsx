@@ -8,6 +8,7 @@ import Works from './components/Works/Works'
 import Customer from './components/Customer/Customer'
 import Pricing from './components/Pricing/Pricing'
 import Testimonial from './components/Testimonial/Testimonial'
+import Contact from './components/Contact/Contact'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 <Customer/>
 <Pricing/>
 <Testimonial/>
+<Contact/>
     </>
   )
 }
