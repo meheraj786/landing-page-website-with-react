@@ -15,9 +15,7 @@ const Banner = () => {
           <input className='py-5 font-secondary outline-none pl-6 bg-white rounded-[6px] w-[480px]' type="text" placeholder='Your business email' />
           <button className='px-7 right-2 py-[15px] bg-secondary text-text font-secondary rounded-[6px] absolute'>Try for free</button>
         </Flex>
-          <div className="img   ">
             <img className="absolute bottom-[-276px] left-[208px]" src={bannerLaptop} alt="" />
-          </div>
       </Container>
     </div>
 
