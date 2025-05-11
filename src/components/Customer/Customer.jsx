@@ -14,18 +14,18 @@ const Customer = () => {
           </div>
           <div className="customer-right mx-auto w-[40%]">
             <h2 className='text-[44px] font-primary font-bold mb-[64px]'>Trusted by 35,000+ happy customers.</h2>
-            <Flex>
+            <Flex className="justify-between">
               <div className="box w-[176px]">
-                <h2 className='text-[44px] font-primary font-bold mb-[12px]'>720+</h2>
-                <p className='opacity-[70%]'>Over 500 business powered with us</p>
+                <h2 className='text-[44px] font-primary font-black mb-[12px]'>720+</h2>
+                <p className='opacity-[70%] text-[18px] font-medium leading-[32px]'>Over 500 business powered with us</p>
               </div>
               <div className="box w-[176px]">
-              <h2 className='text-[44px] font-primary font-bold mb-[12px]'>720+</h2>
-              <p className='opacity-[70%]'>Over 500 business powered with us</p>
+              <h2 className='text-[44px] font-primary font-black mb-[12px]'>4.9</h2>
+              <p className='opacity-[70%] text-[18px] font-medium leading-[32px]'>Rating on google <br /> play and app store</p>
               </div>
               <div className="box w-[176px]">
-              <h2 className='text-[44px] font-primary font-bold mb-[12px]'>720+</h2>
-              <p className='opacity-[70%]'>Over 500 business powered with us</p>
+              <h2 className='text-[44px] font-primary font-black mb-[12px]'>200+</h2>
+              <p className='opacity-[70%] text-[18px] font-medium leading-[32px]'>Easily integrate with your favorite apps</p>
               </div>
             </Flex>
           </div>
