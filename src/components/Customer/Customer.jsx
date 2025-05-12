@@ -12,7 +12,7 @@ const Customer = () => {
           <div className="customer-left pl-[50px] w-[50%]">
             <img src={img} alt="" />
           </div>
-          <div className="customer-right mx-auto w-[40%]">
+          <div className="customer-right mx-auto pb-[85px]  w-[40%]">
             <h2 className='text-[44px] font-primary font-bold mb-[64px]'>Trusted by 35,000+ happy customers.</h2>
             <Flex className="justify-between">
               <div className="box w-[176px]">

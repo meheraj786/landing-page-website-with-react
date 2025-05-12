@@ -2,6 +2,8 @@ import React from 'react'
 import Container from '../Container/Container'
 import Flex from '../Flex/Flex'
 import icon1 from '../../assets/pricingIcon1.png'
+import icon2 from '../../assets/pricingIcon2.png'
+import icon3 from '../../assets/pricingIcon3.png'
 import check from '../../assets/checkIcon.png'
 import Button from '../../layout/Button/Button'
 
@@ -15,18 +17,18 @@ const Pricing = () => {
       list: ["Calender View", "Calender View", "Calender View", "Calender View", "Calender View",]
     },
     {
-      icon: icon1,
-      option: "Personal",
-      pricing: "$10/mth",
-      save: "Annual pricing (save 20%)",
-      list: ["Calender View", "Calender View", "Calender View", "Calender View", "Calender View",]
+      icon: icon2,
+      option: "Team",
+      pricing: "$25/mth",
+      save: "Annual pricing (save 35%)",
+      list: ["Timeline Review", "Custome feilds", "Custom Templates", "Task Dependencies", "Milestones Manage",]
     },
     {
-      icon: icon1,
-      option: "Personal",
-      pricing: "$10/mth",
-      save: "Annual pricing (save 20%)",
-      list: ["Calender View", "Calender View", "Calender View", "Calender View", "Calender View",]
+      icon: icon3,
+      option: "Enterprise",
+      pricing: "$50/mth",
+      save: "Annual pricing (save 40%)",
+      list: ["Data export & deletion", "Block native integrations", "Custom branding", "Lock custom fields", "Priority support",]
     },
   ]
   return (
@@ -45,7 +47,7 @@ const Pricing = () => {
                 <ul className='text-left mb-[40px] '>
                   {
                     price.list.map((item)=>(
-                      <li className='flex items-center gap-[22px] mb-[26px    ] group-hover:text-white text-description'><span ><img src={check} className='px-[5px] bg-[#F4EBFF]  py-[7px] rounded-full' alt="" /></span>{item}</li>
+                      <li className='flex items-center gap-[22px] mb-[26px] group-hover:text-white text-description'><span ><img src={check} className='px-[5px] bg-[#F4EBFF]  py-[7px] rounded-full' alt="" /></span>{item}</li>
                     ))
                   }
                 </ul>
