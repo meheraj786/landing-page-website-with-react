@@ -26,7 +26,6 @@ function App() {
 <Testimonial/>
 <Contact/>
 <Footer/>
-<SimpleSlider/>
     </>
   )
 }

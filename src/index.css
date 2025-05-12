@@ -11,3 +11,13 @@
   --font-primary: 'Chivo', sans-serif;
   --font-secondary: 'DM Sans', sans-serif;
 }
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  width: 20px !important;
+  color: var(--color-primary) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
