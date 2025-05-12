@@ -92,7 +92,7 @@ const features=[
               <span>...</span>
               </div>
               </Flex>
-              <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  h-[138px] shadow-md  py-[18px] px-[13px]">
+              <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  shadow-md  py-[18px] px-[13px]">
                 <p className='mb-[20px]'>Customer Experiance Insight <span>...</span></p>
                 <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
                 <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>
@@ -116,7 +116,7 @@ const features=[
               <span>...</span>
               </div>
               </Flex>
-              <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  h-[138px] shadow-md  py-[18px] px-[13px]">
+              <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  shadow-md  py-[18px] px-[13px]">
                 <p className='mb-[20px]'>Customer Experiance Insight <span>---</span></p>
                 <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
                 <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>

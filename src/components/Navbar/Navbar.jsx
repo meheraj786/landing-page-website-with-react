@@ -15,7 +15,7 @@ const Navbar = () => {
         
         <ul>
           <Flex className="text-white gap-[50px] items-center">
-          <li>Hello</li>
+          <li>Home</li>
           <li>Features</li>
           <li>Service</li>
           <li>Pages</li>
