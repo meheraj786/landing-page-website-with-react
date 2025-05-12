@@ -5,6 +5,7 @@ import Button from '../../layout/Button/Button'
 import stars from '../../assets/testimonialStars.png'
 import icons from '../../assets/testimonialIcons.png'
 import smallStar from '../../assets/smallStars.png'
+import SimpleSlider from '../Slider/SimpleSlider'
 
 const Testimonial = () => {
   return (
@@ -28,7 +29,7 @@ const Testimonial = () => {
           </Flex>
         </div>
         <div className="testimonial-right w-[50%]">
-          <div className="review relative rounded-[20px] bg-white p-[60px]">
+          {/* <div className="review relative rounded-[20px] bg-white p-[60px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] left-[48px] rounded-full"></div>
             <p className='text-description text-[22px] leading-[44px] w-[567px]'>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
 
@@ -40,7 +41,8 @@ const Testimonial = () => {
               <img src={stars} alt="" />
             </Flex>
 
-          </div>
+          </div> */}
+          <SimpleSlider/>
 
         </div>
         </Flex>
