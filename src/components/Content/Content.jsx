@@ -10,6 +10,7 @@ import contentElips from '../../assets/contentElips.png'
 import check from '../../assets/check.png'
 import subCir from '../../assets/subscribersCircles.png'
 import stats from '../../assets/stats.png'
+import avatar from '../../assets/avatar.png'
 import Container from '../Container/Container'
 import Button from "../../layout/Button/Button"
 
@@ -52,7 +53,7 @@ const features=[
     <div className="content pt-[336px]">
       <Container>
       <Flex className="justify-between items-start">
-        <h2 className='text-5xl w-[504px] font-primary font-bold leading-[58px] tracking-[-1px]'>How simple is it to use our platform?</h2>
+        <h2 className='text-5xl w-[504px] font-primary font-bold text-text leading-[58px] tracking-[-1px]'>How simple is it to use our platform?</h2>
         <p className='text-description w-[530px] leading-[32px] tracking-[-1px] text-[18px] font-secondary'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
       </Flex>
       <Flex className="mt-[116px] mb-[160px] justify-around">
@@ -72,7 +73,7 @@ const features=[
         <Flex className="justify-between">
         <div className="stats-left">
           <img className='absolute top-[48px] left-[-59px]' src={contentElips} alt="" />
-          <div className="box relative w-[447px] h-[651px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0  pl-[34px] border-[#2290F5] ml-[57px] bg-white">
+          <div className="box shadow-2xl relative w-[447px] pb-[32px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0  pl-[34px] border-[#2290F5] ml-[57px] bg-white">
             <div className="subscribers w-[357px] h-[138px] top-[48px] shadow-md bg-white py-[18px] px-[22px] absolute left-[-76px]">
               <p className='font-semibold text-[14px] leading-[18px] text-text'>New Subscribers</p>
               <Flex className="justify-between">
@@ -87,22 +88,21 @@ const features=[
               <Flex className="justify-between px-[13px]">
               <p>In Progress</p>
               <div>
-              <span>+</span>
-              <span>---</span>
+              <span>+ </span>
+              <span>...</span>
               </div>
               </Flex>
-              <hr />
               <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  h-[138px] shadow-md  py-[18px] px-[13px]">
-                <p className='mb-[20px]'>Customer Experiance Insight <span>---</span></p>
+                <p className='mb-[20px]'>Customer Experiance Insight <span>...</span></p>
                 <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
                 <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>
                 <Flex className="justify-between mt-[20px]">
-                  <div>
-                    <img src="" alt="" />
+                  <div className="flex items-center gap-2">
+                    <img src={avatar} alt="" />
                     <p>Starday</p>
                   </div>
                   <div>
-                    <span>50%</span>
+                    <span className="border-1 border-description rounded-2xl px-1">50%</span>
                     <img src="" alt="" />
                   </div>
                 </Flex>
@@ -112,22 +112,21 @@ const features=[
               <Flex className="justify-between px-[13px]">
               <p>In Progress</p>
               <div>
-              <span>+</span>
-              <span>---</span>
+              <span>+ </span>
+              <span>...</span>
               </div>
               </Flex>
-              <hr />
               <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  h-[138px] shadow-md  py-[18px] px-[13px]">
                 <p className='mb-[20px]'>Customer Experiance Insight <span>---</span></p>
                 <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
                 <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>
                 <Flex className="justify-between mt-[20px]">
-                  <div>
-                    <img src="" alt="" />
+                  <div className="flex items-center gap-2">
+                    <img src={avatar} alt="" />
                     <p>Starday</p>
                   </div>
                   <div>
-                    <span>50%</span>
+                    <span className="border-1 border-description rounded-2xl px-1">50%</span>
                     <img src="" alt="" />
                   </div>
                 </Flex>
@@ -147,7 +146,7 @@ const features=[
           </div>
         </div>
         <div className="stats-right w-[40%]">
-          <h2 className='font-primary mb-[64px] text-bold text-text leading-[58px] tracking-[-1px] text-[46px] w-[553px]' >We provide features for your Business</h2>
+          <h2 className='font-primary mb-[64px] font-bold text-text leading-[58px] tracking-[-1px] text-[46px] w-[553px]' >We provide features for your Business</h2>
   <Flex className="justify-center gap-x-[96px] gap-y-[40px] items-end">
   {
     features.map((feature)=>(
