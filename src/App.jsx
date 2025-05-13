@@ -10,7 +10,6 @@ import Pricing from './components/Pricing/Pricing'
 import Testimonial from './components/Testimonial/Testimonial'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import SimpleSlider from './components/Slider/SimpleSlider'
 
 function App() {
 

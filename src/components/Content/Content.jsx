@@ -13,6 +13,10 @@ import stats from '../../assets/stats.png'
 import avatar from '../../assets/avatar.png'
 import Container from '../Container/Container'
 import Button from "../../layout/Button/Button"
+import { IoMdArrowDropup } from "react-icons/io";
+import { HiDotsHorizontal } from "react-icons/hi";
+
+
 
 const Content = () => {
   const cards= [
@@ -79,7 +83,8 @@ const features=[
               <Flex className="justify-between">
                 <div>
                 <h2 className='text-text font-primary text-[31px] font-bold leading-[36px] mt-[21px] mb-[5px]'>2010+</h2>
-                <span className='text-[#FF7364] font-primary text-[12px] leading-[18px]'>32% this month</span>
+                <span className='text-[#FF7364] font-primary text-[12px] flex items-center leading-[18px]'> <IoMdArrowDropup className='text-[24px] text-[#FF7364]' />
+                32% this month</span>
                 </div>
                 <img src={subCir} alt="" />
               </Flex>
@@ -87,10 +92,11 @@ const features=[
             <div className="in-progress text-description w-[295px] mt-[216px]">
               <Flex className="justify-between px-[13px]">
               <p>In Progress</p>
-              <div>
+              <Flex className='gap-2'>
               <span>+ </span>
-              <span>...</span>
-              </div>
+              <span><HiDotsHorizontal />
+</span>
+              </Flex>
               </Flex>
               <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  shadow-md  py-[18px] px-[13px]">
                 <p className='mb-[20px]'>Customer Experiance Insight <span>...</span></p>
@@ -111,13 +117,15 @@ const features=[
             <div className="in-progress text-description w-[295px] mt-[35px]">
               <Flex className="justify-between px-[13px]">
               <p>In Progress</p>
-              <div>
+              <Flex className='gap-2'>
               <span>+ </span>
-              <span>...</span>
-              </div>
+              <span><HiDotsHorizontal />
+</span>
+              </Flex>
               </Flex>
               <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  shadow-md  py-[18px] px-[13px]">
-                <p className='mb-[20px]'>Customer Experiance Insight <span>---</span></p>
+                <p className='mb-[20px]'>Customer Experiance Insight <span><HiDotsHorizontal />
+</span></p>
                 <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
                 <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>
                 <Flex className="justify-between mt-[20px]">
