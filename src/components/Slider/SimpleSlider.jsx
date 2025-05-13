@@ -18,7 +18,7 @@ export default function SimpleSlider() {
   const format = [
     {
       content: (
-        <div className="h-[426px] pt-[70px]">
+        <div className="h-[426px] pt-[70px] rounded-[20px]">
           <div className="review relative rounded-[20px] bg-white p-[50px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] z-10 left-[48px] rounded-full"></div>
             <p className="text-description text-[22px] leading-[44px] w-[567px]">

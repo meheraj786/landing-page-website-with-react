@@ -2,8 +2,7 @@ import React from "react";
 import Container from "../Container/Container";
 import Flex from "../Flex/Flex";
 import logo from "../../assets/footerLogo.png";
-import plane from "../../assets/plane.png";
-import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin, FaTelegramPlane  } from "react-icons/fa";
 
 const Footer = () => {
   const listItems = [
@@ -78,16 +77,19 @@ const Footer = () => {
               Subscribe to our newsletter and get many interesting things every
               week
             </p>
-            <input
-              className="border-1 border-description rounded-md outline-none p-[10px]"
+<div className="relative">
+<input
+              className="border-1 text-[12px] border-[#D2D2D2] rounded-md outline-none pl-[18px] pr-[136px] pt-[12px] pb-[14px]"
               type="text"
+              placeholder="Your Email Address"
             />
-            <button className="px-[10px] py-[10px] bg-primary rounded-md ml-[10px]">
-              <img src={plane} alt="" />
+            <button className="px-[10px] absolute right-[5px] top-[5px] py-[10px] text-white bg-primary rounded-md ml-[10px]">
+            <FaTelegramPlane />
             </button>
+</div>
           </div>
         </Flex>
-        <hr className=" border-2 border-description opacity-[50%]" />
+        <hr className=" border-1 border-description opacity-[50%]" />
         <div className="copyright text-description py-6">
           <p>© 2024 Innovate - All Right Reserved</p>
         </div>

@@ -13,7 +13,7 @@ import stats from '../../assets/stats.png'
 import avatar from '../../assets/avatar.png'
 import Container from '../Container/Container'
 import Button from "../../layout/Button/Button"
-import { IoMdArrowDropup } from "react-icons/io";
+import { IoMdArrowDropup, IoIosCheckboxOutline  } from "react-icons/io";
 import { HiDotsHorizontal } from "react-icons/hi";
 
 
@@ -99,7 +99,9 @@ const features=[
               </Flex>
               </Flex>
               <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  shadow-md  py-[18px] px-[13px]">
-                <Flex className='justify-between mb-[20px]'>Customer Experiance Insight <span><HiDotsHorizontal /></span></Flex>
+                <Flex className='justify-between mb-[20px]'><p className='flex items-center gap-[9px]'><IoIosCheckboxOutline /> Customer Experiance Insight</p>
+                <span><HiDotsHorizontal />
+</span></Flex>
                 <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
                 <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>
                 <Flex className="justify-between mt-[20px]">
@@ -119,7 +121,7 @@ const features=[
             </div>
             <div className="in-progress text-description w-[295px] mt-[35px]">
               <Flex className="justify-between px-[13px]">
-              <p>In Progress</p>
+              <p>Pending</p>
               <Flex className='gap-2'>
               <span>+ </span>
               <span><HiDotsHorizontal />
@@ -127,7 +129,8 @@ const features=[
               </Flex>
               </Flex>
               <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  shadow-md  py-[18px] px-[13px]">
-                <Flex className='justify-between mb-[20px]'>Customer Experiance Insight <span><HiDotsHorizontal />
+                <Flex className='justify-between mb-[20px]'> <p className='flex items-center gap-[9px]'><IoIosCheckboxOutline /> Customer Experiance Insight</p>
+                <span><HiDotsHorizontal />
 </span></Flex>
                 <span className='px-[19px] py-[2px] bg-blue-500 text-[13px] mr-[22px] rounded-[12px] text-white'>Low</span>
                 <span className='px-[10px] py-[2px] bg-orange-500 text-[13px] mr-[22px] rounded-[12px] text-white'>air x</span>
