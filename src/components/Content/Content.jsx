@@ -67,7 +67,7 @@ const features=[
             <Flex className="flex-col justify-center w-[300px] text-center">
           <img src={card.img} alt="" />
           <h3 className='mt-[26px] leading-[36px] text-2xl text-text font-bold mb-3'>{card.title}</h3>
-          <p className='text-description mx-auto w-[300px] leading-[32px] tracking-[-0.25%] text-1xl'>{card.description}</p>
+          <p className='text-description mx-auto w-[300px] leading-[32px] -tracking-[0.25%] tex-[18px]'>{card.description}</p>
         </Flex>
     </>
   ))
@@ -143,13 +143,12 @@ const features=[
                     <span className=""><svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.93829 4.50386C1.93829 3.33536 2.8637 2.35791 4.04195 2.35791H16.8717C18.0499 2.35791 18.9753 3.33536 18.9753 4.50386C18.9753 5.67237 18.0499 6.64982 16.8717 6.64982H5.15871V10.2531H6.96337C7.22348 9.38002 8.01595 8.73047 8.97646 8.73047H13.911C15.0892 8.73047 16.0146 9.70792 16.0146 10.8764C16.0146 12.0449 15.0892 13.0224 13.911 13.0224H8.97646C8.01595 13.0224 7.22348 12.3728 6.96337 11.4997H5.15871V15.2188C5.15871 16.0125 5.77978 16.6257 6.50921 16.6257H6.96337C7.22348 15.7526 8.01595 15.103 8.97646 15.103H13.911C15.0892 15.103 16.0146 16.0805 16.0146 17.249C16.0146 18.4175 15.0892 19.3949 13.911 19.3949H8.97646C8.01595 19.3949 7.22348 18.7454 6.96337 17.8723H6.50921C5.05843 17.8723 3.9121 16.6676 3.9121 15.2188V6.64584C2.79641 6.57715 1.93829 5.62909 1.93829 4.50386ZM4.04195 3.60452C3.58505 3.60452 3.18491 3.9905 3.18491 4.50386C3.18491 5.01723 3.58505 5.40321 4.04195 5.40321H16.8717C17.3286 5.40321 17.7287 5.01723 17.7287 4.50386C17.7287 3.9905 17.3286 3.60452 16.8717 3.60452H4.04195ZM8.97646 9.97709C8.51956 9.97709 8.11941 10.3631 8.11941 10.8764C8.11941 11.3898 8.51956 11.7758 8.97646 11.7758H13.911C14.3679 11.7758 14.768 11.3898 14.768 10.8764C14.768 10.3631 14.3679 9.97709 13.911 9.97709H8.97646ZM8.97646 16.3497C8.51956 16.3497 8.11941 16.7356 8.11941 17.249C8.11941 17.7624 8.51956 18.1483 8.97646 18.1483H13.911C14.3679 18.1483 14.768 17.7624 14.768 17.249C14.768 16.7356 14.3679 16.3497 13.911 16.3497H8.97646Z" fill="#848588"/>
 </svg></span>
-                    <img src="" alt="" />
                   </div>
                 </Flex>
               </div>
             </div>
           <div className="total-project shadow-md absolute right-[-190px] z-10 bg-white top-[108px] py-[22px] px-[25px]">
-            <h2 className='mb-[24px]'>Total Project Data</h2>
+            <h2 className='mb-[24px] text-text font-semibold font-secondary'>Total Project Data</h2>
             <img src={stats} alt="" />
 
           </div>
@@ -169,7 +168,7 @@ const features=[
       <div className="feature-card w-[225px]">
         <img src={feature.img} alt="" />
         <h3 className='mt-[14px] mb-[6px] text-[22px] font-primary font-bold leading-[34px] tracking-[-0.5%] text-text'>{feature.title}</h3>
-        <p className='text-[22px] font-secondary font-regular leading-[32px]  text-description'>{feature.description}</p>
+        <p className='text-[22px] font-secondary text-regular leading-[32px]  text-description'>{feature.description}</p>
       </div>
     ))
   }

@@ -56,7 +56,7 @@ const Works = () => {
           }
         </Flex>
         <div className="button text-center">
-        <Button className="bg-white border-primary border-1 text-primary hover:bg-primary hover:text-text mt-[80px] text-center mx-auto">View More</Button>
+        <Button className="bg-white border-primary border-1 text-primary  hover:bg-primary hover:text-text mt-[80px] text-center mx-auto">View More</Button>
 
         </div>
       </Container>

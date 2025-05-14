@@ -13,21 +13,21 @@ const Pricing = () => {
       icon: icon1,
       option: "Personal",
       pricing: "$10/mth",
-      save: "Annual pricing (save 20%)",
+      save: " (save 20%)",
       list: ["Calender View", "Calender View", "Calender View", "Calender View", "Calender View",]
     },
     {
       icon: icon2,
       option: "Team",
       pricing: "$25/mth",
-      save: "Annual pricing (save 35%)",
+      save: " (save 35%)",
       list: ["Timeline Review", "Custome feilds", "Custom Templates", "Task Dependencies", "Milestones Manage",]
     },
     {
       icon: icon3,
       option: "Enterprise",
       pricing: "$50/mth",
-      save: "Annual pricing (save 40%)",
+      save: " (save 40%)",
       list: ["Data export & deletion", "Block native integrations", "Custom branding", "Lock custom fields", "Priority support",]
     },
   ]
@@ -43,7 +43,8 @@ const Pricing = () => {
                 <img className='mx-auto' src={price.icon} alt="" />
                 <p className='font-primary text-[24px] group-hover:text-white leading-[54px] font-bold text-primary mt-[32px] mb-[2px]'>{price.option}</p>
                 <h2 className='font-primary text-[44px] group-hover:text-white leading-[36px] font-bold text-text'>{price.pricing}</h2>
-                <p className='font-secondary text-[18px] group-hover:text-white leading-[18px] font-medium text-description mt-[14px] mb-[40px]'>{price.save}</p>
+                <p className='font-secondary text-[18px] group-hover:text-white leading-[18px] font-medium text-description mt-[14px] mb-[40px]'>Annual pricing <span className='text-primary group-hover:text-secondary'>{price.save}</span>
+                  </p>
                 <ul className='text-left mb-[40px] '>
                   {
                     price.list.map((item)=>(

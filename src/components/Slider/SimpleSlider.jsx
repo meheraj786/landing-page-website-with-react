@@ -21,13 +21,13 @@ export default function SimpleSlider() {
         <div className="h-[426px] pt-[70px] rounded-[20px]">
           <div className="review relative rounded-[20px] bg-white p-[50px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] z-10 left-[48px] rounded-full"></div>
-            <p className="text-description text-[22px] leading-[44px] w-[567px]">
+            <p className="text-description text-[22px] leading-[44px] w-[567px] font-secondary">
               “Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. 1
             </p>
   
             <Flex className="justify-between mt-[37px]">
               <div>
-                <h3 className="text-6 text-text font-bold font-primary leading-[36px] mb-[4px]">Robert Fox</h3>
+                <h3 className="text-6 text-text font-bold font-primary leading-[36px] mb-[4px]">SuperMan</h3>
                 <p className="text-4 text-description font-regular font-secondary leading-[26px]">Digital Marketer</p>
               </div>
               <img src={stars} alt="Rating stars" />
@@ -41,14 +41,14 @@ export default function SimpleSlider() {
         <div className="h-[426px] pt-[70px]">
           <div className="review relative rounded-[20px] bg-white p-[50px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] z-10 left-[48px] rounded-full"></div>
-            <p className="text-description text-[22px] leading-[44px] w-[567px]">
+            <p className="text-description text-[22px] leading-[44px] w-[567px] font-secondary">
               “Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. 2
             </p>
   
             <Flex className="justify-between mt-[37px]">
               <div>
-                <h3 className="text-6 text-text font-bold font-primary leading-[36px] mb-[4px]">Robert Fox</h3>
-                <p className="text-4 text-description font-regular font-secondary leading-[26px]">Digital Marketer</p>
+                <h3 className="text-6 text-text font-bold font-primary leading-[36px] mb-[4px]">BateMan</h3>
+                <p className="text-4 text-description font-regular font-secondary leading-[26px]">Senior</p>
               </div>
               <img src={stars} alt="Rating stars" />
             </Flex>
@@ -61,14 +61,14 @@ export default function SimpleSlider() {
         <div className="h-[426px] pt-[70px]">
           <div className="review relative rounded-[20px] bg-white p-[50px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] z-10 left-[48px] rounded-full"></div>
-            <p className="text-description text-[22px] leading-[44px] w-[567px]">
+            <p className="text-description text-[22px] leading-[44px] w-[567px] font-secondary">
               “Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. 3
             </p>
   
             <Flex className="justify-between mt-[37px]">
               <div>
-                <h3 className="text-6 text-text font-bold font-primary leading-[36px] mb-[4px]">Robert Fox</h3>
-                <p className="text-4 text-description font-regular font-secondary leading-[26px]">Digital Marketer</p>
+                <h3 className="text-6 text-text font-bold font-primary leading-[36px] mb-[4px]">SpiderMan</h3>
+                <p className="text-4 text-description font-regular font-secondary leading-[26px]">Web Developer</p>
               </div>
               <img src={stars} alt="Rating stars" />
             </Flex>

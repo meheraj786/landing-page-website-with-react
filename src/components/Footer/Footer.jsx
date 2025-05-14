@@ -61,7 +61,7 @@ const Footer = () => {
                           </li>
                         );
                       }
-                      return <li>{li}</li>;
+                      return <li className="cursor-pointer hover:text-text">{li}</li>;
                     })}
                   </ul>
                 );
@@ -89,8 +89,8 @@ const Footer = () => {
 </div>
           </div>
         </Flex>
-        <hr className=" border-1 border-description opacity-[50%]" />
-        <div className="copyright text-description py-6">
+        <hr className=" border-1 opacity-[80%] font-secondary border-description" />
+        <div className="copyright text-[16px]   text-description py-6">
           <p>© 2024 Innovate - All Right Reserved</p>
         </div>
       </Container>

@@ -21,7 +21,7 @@ const Banner = () => {
             type="text"
             placeholder="Your business email"
           />
-          <button className="px-7 right-2 py-[15px] bg-secondary text-text font-secondary rounded-[6px] absolute">
+          <button className="px-7 right-2 py-[15px] bg-secondary hover:bg-primary hover:text-white cursor-pointer text-text font-secondary rounded-[6px] absolute">
             Try for free
           </button>
         </Flex>

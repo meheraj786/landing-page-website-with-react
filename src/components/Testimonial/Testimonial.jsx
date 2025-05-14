@@ -24,7 +24,7 @@ const Testimonial = () => {
             <div>
               <p className='flex relative gap-3 font-black text-6 font-primary after:absolute after:w-[2px] after:rounded-full after:h-[16px] after:bg-[#DADBE2] after:top-[50%] after:right-[71%] after:-translate-y-[50%] after:-translate-x-[50%] after- text-[#52C5B6]'>4.5 <span className='flex items-center'><img src={smallStar} alt="" /></span>
               </p>
-              <p className='text-description'>280k Total Review</p>
+              <p className='text-description font-secondary'>280k Total Review</p>
             </div>
           </Flex>
         </div>
