@@ -8,13 +8,13 @@ import { RxCross2 } from "react-icons/rx";
 
 
 const Navbar = () => {
-  const [show, setShow]= useState(true)
+  const [show, setShow]= useState(false)
 
   return (
-    <div className="navbar z-10 font-secondary absolute md:top-8
+    <div className="navbar bg-primary md:bg-transparent fixed z-10 font-secondary md:absolute md:py-8
     w-full">
     <Container>
-      <Flex className="justify-between w-full py-9 md:py-0 inline-block md:flex md:items-center items-start md:flex-row  md:bg-[transparent]" >
+      <Flex className="justify-between w-full py-9 md:py-0 inline-block md:flex md:items-center items-start md:flex-row md:bg-[transparent]" >
         <Flex className="justify-between px-3 items-center">
           <Logo/>
           {show ? <RxCross2 onClick={()=>setShow(!show)}  className='md:hidden text-4xl text-white' />
@@ -23,7 +23,7 @@ const Navbar = () => {
         </Flex>
         {
           show && (
-            <div className='bg-primary py-3'>
+            <div className=' py-3'>
                     <ul>
           <Flex className="text-white md:flex-row flex-col gap-5 md:gap-[50px] mx-auto items-center mb-[40px] md:mb-0 md:items-start">
           <li className='cursor-pointer hover:text-gray-300'>Home</li>
