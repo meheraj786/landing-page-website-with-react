@@ -24,14 +24,14 @@ const Integrate = () => {
       </div>
       <Container>
       <Flex className="justify-between gap-0">
-        <div className="integrate-left w-[40%]">
-          <p className='text-[20px] font-secondary font-medium text-orng'>Integrations</p>
-          <h2 className='text-[46px] font-bold mt-[4px] mb-[20px] font-primary leading-[58px] text-text'>Easily integrate with your favorite apps</h2>
-          <p className='text-[18px] font-secondary font-bold  mb-[40px] leading-[32px] text-description'>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.</p>
+        <div className="integrate-left text-center md:text-left md:w-[40%]">
+          <p className='text-[20px] text-center md:text-left font-secondary font-medium text-orng'>Integrations</p>
+          <h2 className='md:text-[46px] md:w-full w-[70%] mx-auto text-center md:text-left text-[36px] font-bold mt-[4px] mb-[20px] font-primary leading-[58px] text-text'>Easily integrate with your favorite apps</h2>
+          <p className='md:text-[18px] px-3 md:px-0 text-4 font-secondary font-bold  mb-[40px] leading-[32px] text-center md:text-left text-description'>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.</p>
           <Button className="text-white">Get Started</Button>
         </div>
-        <div className="integrate-right w-[697px]">
-          <Flex className="justify-between gap-y-[35px]">
+        <div className="integrate-right relative z-10 mt-[50px] md:mt-0 md:w-[697px]">
+          <Flex className="md:justify-between justify-center gap-5 md:gap-0 md:gap-y-[35px] items-center">
             <div className='px-[65px] py-[45px] bg-white shadow-md rounded-[12px]'>
           <img className='w-[202px]' src={icon1} alt="" />
             </div>
