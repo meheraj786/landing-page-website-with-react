@@ -56,11 +56,11 @@ const features=[
   return (
     <div className="content pt-[336px]">
       <Container>
-      <Flex className="justify-between items-start">
-        <h2 className='text-5xl w-[504px] font-primary font-bold text-text leading-[58px] tracking-[-1px]'>How simple is it to use our platform?</h2>
-        <p className='text-description w-[530px] leading-[32px] tracking-[-1px] text-[18px] font-secondary'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
+      <Flex className="md:justify-between text-center md:text-left justify-center items-start">
+        <h2 className='text-4xl md:text-5xl max-w-[504px] font-primary font-bold text-text leading-[38px] md:leading-[48px] mb-3 md:mb-0 tracking-[-1px]'>How simple is it to use our platform?</h2>
+        <p className='text-description max-w-[530px] leading-[32px] tracking-[-1px] text-[16px] md:text-[18px] font-secondary'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
       </Flex>
-      <Flex className="mt-[116px] mb-[160px] justify-around">
+      <Flex className="mt-[116px] gap-10 md:gap-0 mb-[140px] justify-around">
 {
   cards.map((card)=>(
     <>
@@ -77,8 +77,8 @@ const features=[
         <Flex className="justify-between">
         <div className="stats-left">
           <img className='absolute top-[48px] left-[-59px]' src={contentElips} alt="" />
-          <div className="box shadow-2xl relative w-[447px] pb-[32px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0  pl-[34px] border-[#2290F5] ml-[57px] bg-white">
-            <div className="subscribers w-[357px] h-[138px] top-[48px] shadow-md bg-white py-[18px] px-[22px] absolute left-[-76px]">
+          <div className="box shadow-2xl relative w-[447px] pb-[32px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0 px-[34px]  md:pl-[34px] border-[#2290F5] ml-[57px] bg-white">
+            <div className="subscribers max-w-[357px] h-[138px] top-[48px] shadow-md bg-white py-[18px] px-[22px] mx-auto md:absolute mt-5 md:mt-0 left-[-76px]">
               <p className='font-semibold text-[14px] leading-[18px] text-text'>New Subscribers</p>
               <Flex className="justify-between">
                 <div>
@@ -89,7 +89,7 @@ const features=[
                 <img src={subCir} alt="" />
               </Flex>
             </div>
-            <div className="in-progress text-description w-[295px] mt-[216px]">
+            <div className="in-progress text-description max-w-[295px] mx-auto md:mr-auto md:ml-0 md:mt-[216px] mt-[50px]">
               <Flex className="justify-between px-[13px]">
               <p>In Progress</p>
               <Flex className='gap-2'>
@@ -119,7 +119,7 @@ const features=[
                 </Flex>
               </div>
             </div>
-            <div className="in-progress text-description w-[295px] mt-[35px]">
+            <div className="in-progress mx-auto md:mr-auto md:ml-0 text-description max-w-[295px] mt-[35px]">
               <Flex className="justify-between px-[13px]">
               <p>Pending</p>
               <Flex className='gap-2'>
@@ -128,7 +128,7 @@ const features=[
 </span>
               </Flex>
               </Flex>
-              <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF]  shadow-md  py-[18px] px-[13px]">
+              <div className="box border-1 mt-[22px] rounded-[6px] border-[#E6E9EF] shadow-md  py-[18px] px-[13px]">
                 <Flex className='justify-between mb-[20px]'> <p className='flex items-center gap-[9px]'><IoIosCheckboxOutline /> Customer Experiance Insight</p>
                 <span><HiDotsHorizontal />
 </span></Flex>
@@ -147,22 +147,22 @@ const features=[
                 </Flex>
               </div>
             </div>
-          <div className="total-project shadow-md absolute right-[-190px] z-10 bg-white top-[108px] py-[22px] px-[25px]">
+          <div className="total-project my-9 md:my-0 shadow-md md:absolute right-[-190px] z-10 bg-white top-[108px] py-[22px] px-[25px]">
             <h2 className='mb-[24px] text-text font-semibold font-secondary'>Total Project Data</h2>
-            <img src={stats} alt="" />
+            <img className='mx-auto' src={stats} alt="" />
 
           </div>
-          <div className="project-notify shadow-md absolute right-[-190px] z-10 bg-white top-[368px] py-[22px] px-[25px] text-center">
+          <div className="project-notify shadow-md md:absolute right-[-190px] z-10 bg-white top-[368px] py-[22px] px-[25px] text-center">
             <img className="mx-auto" src={check} alt="" />
-            <h2 className='w-[231px] text-description mt-[22px] mb-[16px]'>Your analytics research project is complete</h2>
+            <h2 className='max-w-[231px] mx-auto text-description mt-[22px] mb-[16px]'>Your analytics research project is complete</h2>
             <Button className="bg-secondary text-text">Project Notify</Button>
 
           </div>
           </div>
         </div>
-        <div className="stats-right w-[40%]">
-          <h2 className='font-primary mb-[64px] font-bold text-text leading-[58px] tracking-[-1px] text-[46px] w-[553px]' >We provide features for your Business</h2>
-  <Flex className="justify-center gap-x-[96px] gap-y-[40px] items-end">
+        <div className="stats-right mt-[90px] md:mt-0 md:w-[40%]">
+          <h2 className='font-primary mb-[64px] font-bold text-text leading-[58px] text-center md:text-left tracking-[-1px] md:text-[46px] text-[36px] max-w-[553px]' >We provide features for your Business</h2>
+  <Flex className="md:justify-center justify-center md:gap-x-[96px] gap-x-9 gap-y-[40px] md:items-end">
   {
     features.map((feature)=>(
       <div className="feature-card w-[225px]">
