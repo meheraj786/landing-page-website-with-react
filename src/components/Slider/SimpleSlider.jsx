@@ -5,6 +5,52 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// Custom Next Arrow
+// Next Arrow
+function SampleNextArrow(props) {
+  const { className, onClick } = props;
+  return (
+    <div
+      onClick={onClick}
+      className={`${className} !hidden md:!flex items-center justify-center bg-[#001F3F] rounded-full !right-[-40px] top-1/2 transform -translate-y-1/2 absolute`}
+      style={{ width: "40px", display:'flex' ,background:"#3639A4", height: "40px", zIndex: 10 }}
+    >
+      <svg
+        className="w-4 h-4 text-white"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={3}
+        viewBox="0 0 24 24"
+      >
+        <path d="M9 5l7 7-7 7" />
+      </svg>
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, onClick } = props;
+  return (
+    <div
+      onClick={onClick}
+      className={`${className} hidden sm:flex items-center justify-center bg-[#001F3F] rounded-full left-[-20px] top-1/2 transform -translate-y-1/2 absolute`}
+      style={{ width: "40px", display:'flex' ,background:"#3639A4", height: "40px", zIndex: 10 }}
+    >
+      <svg
+        className="w-4 h-4 text-white"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={3}
+        viewBox="0 0 24 24"
+      >
+        <path d="M15 19l-7-7 7-7" />
+      </svg>
+    </div>
+  );
+}
+
+
+
 export default function SimpleSlider() {
   var settings = {
     dots: true,
@@ -13,15 +59,17 @@ export default function SimpleSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 2000,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   const format = [
     {
       content: (
-        <div className="h-[426px] pt-[70px] rounded-[20px]">
+        <div className="pt-[70px] rounded-[20px]">
           <div className="review relative rounded-[20px] bg-white p-[50px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] z-10 left-[48px] rounded-full"></div>
-            <p className="text-description text-[22px] leading-[44px] w-[567px] font-secondary">
+            <p className="text-description text-[22px] leading-[44px] max-w-[567px] font-secondary">
               “Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. 1
             </p>
   

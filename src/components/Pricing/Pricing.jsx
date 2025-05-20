@@ -34,7 +34,7 @@ const Pricing = () => {
   return (
     <div className="pricing py-[140px]">
       <Container>
-        <h2 className='text-center md:text-[46px] text-[36px] font-primary text-text font-bold leading-[58px] w-[624px] mx-auto'>Pricing Designed To Fit Your Business</h2>
+        <h2 className='text-center md:text-[46px] text-[36px] font-primary text-text font-bold leading-[58px] md:w-[624px] mx-auto'>Pricing Designed To Fit Your Business</h2>
         <p className='text-center text-[20px] md:text-[24px] font-primary text-[#3639A4] font-bold leading-[100%] mt-[40px] mb-[77px]'>Monthly</p>
         <Flex className="justify-between">
           {

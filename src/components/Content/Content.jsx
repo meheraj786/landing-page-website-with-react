@@ -74,10 +74,10 @@ const features=[
 }
       </Flex>
       <div className="stats relative">
-        <Flex className="justify-between">
+        <Flex className="justify-center md:justify-between">
         <div className="stats-left">
           <img className='absolute top-[48px] left-[-59px]' src={contentElips} alt="" />
-          <div className="box shadow-2xl relative w-[447px] pb-[32px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0 px-[34px]  md:pl-[34px] border-[#2290F5] ml-[57px] bg-white">
+          <div className="box shadow-2xl relative md:w-[447px] pb-[32px] rounded-t-[6px] rounded-r-[6px] border-t-[20px] z-0 px-[34px]  md:pl-[34px] border-[#2290F5] md:ml-[57px] bg-white">
             <div className="subscribers max-w-[357px] h-[138px] top-[48px] shadow-md bg-white py-[18px] px-[22px] mx-auto md:absolute mt-5 md:mt-0 left-[-76px]">
               <p className='font-semibold text-[14px] leading-[18px] text-text'>New Subscribers</p>
               <Flex className="justify-between">
@@ -160,13 +160,13 @@ const features=[
           </div>
           </div>
         </div>
-        <div className="stats-right mt-[90px] md:mt-0 md:w-[40%]">
+        <div className="stats-right text-center nd:text-left mt-[90px] md:mt-0 md:w-[40%]">
           <h2 className='font-primary mb-[64px] font-bold text-text leading-[58px] text-center md:text-left tracking-[-1px] md:text-[46px] text-[36px] max-w-[553px]' >We provide features for your Business</h2>
   <Flex className="md:justify-center justify-center md:gap-x-[96px] gap-x-9 gap-y-[40px] md:items-end">
   {
     features.map((feature)=>(
       <div className="feature-card w-[225px]">
-        <img src={feature.img} alt="" />
+        <img className='mx-auto' src={feature.img} alt="" />
         <h3 className='mt-[14px] mb-[6px] text-[22px] font-primary font-bold leading-[34px] tracking-[-0.5%] text-text'>{feature.title}</h3>
         <p className='text-[22px] font-secondary text-regular leading-[32px]  text-description'>{feature.description}</p>
       </div>

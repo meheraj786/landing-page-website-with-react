@@ -11,13 +11,13 @@ const Testimonial = () => {
   return (
     <div className="testimonial py-[200px] bg-[#F4FAFA]">
       <Container>
-        <Flex className="justify-between">
-        <div className="testimonial-left w-[40%]">
-          <h2 className='text-text font-primary  leading-[58px] text-[46px] font-bold'>What they are talking
+        <Flex className="justify-between flex-col md:flex-row">
+        <div className="testimonial-left text-center md:text-left md:w-[40%]">
+          <h2 className='text-text font-primary  leading-[58px] md:text-[46px] text-[36px] font-bold'>What they are talking
           about us?</h2>
-          <p className='text-description w-[503px] mt-[20px] mb-[40px]'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
+          <p className='text-description max-w-[503px] mt-[20px] mx-auto md:mr-auto md:ml-0 mb-[40px]'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
           <Button className="text-white">Get Started</Button>
-          <Flex className="gap-8 mt-[80px]">
+          <Flex className="gap-8 justify-center md:justify-start md:mt-[80px] my-9">
             <div>
               <img src={icons} alt="" />
             </div>
@@ -28,7 +28,7 @@ const Testimonial = () => {
             </div>
           </Flex>
         </div>
-        <div className="testimonial-right w-[50%] ">
+        <div className="testimonial-right md:w-[50%] w-full">
           {/* <div className="review relative rounded-[20px] bg-white p-[60px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] left-[48px] rounded-full"></div>
             <p className='text-description text-[22px] leading-[44px] w-[567px]'>“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
