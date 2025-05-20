@@ -34,15 +34,15 @@ const Pricing = () => {
   return (
     <div className="pricing py-[140px]">
       <Container>
-        <h2 className='text-center text-[46px] font-primary text-text font-bold leading-[58px] w-[624px] mx-auto'>Pricing Designed To Fit Your Business</h2>
-        <p className='text-center text-[24px] font-primary text-[#3639A4] font-bold leading-[100%] mt-[40px] mb-[77px]'>Monthly</p>
+        <h2 className='text-center md:text-[46px] text-[36px] font-primary text-text font-bold leading-[58px] w-[624px] mx-auto'>Pricing Designed To Fit Your Business</h2>
+        <p className='text-center text-[20px] md:text-[24px] font-primary text-[#3639A4] font-bold leading-[100%] mt-[40px] mb-[77px]'>Monthly</p>
         <Flex className="justify-between">
           {
             prices.map((price)=>(
-              <div className="box group hover:bg-primary  py-10 px-[60px] border-1 border-[#DCE7FE] rounded-[20px] text-center">
+              <div className="box mb-5 md:mb-0 mx-auto group hover:bg-primary  py-10 px-[60px] border-1 border-[#DCE7FE] rounded-[20px] text-center">
                 <img className='mx-auto' src={price.icon} alt="" />
                 <p className='font-primary text-[24px] group-hover:text-white leading-[54px] font-bold text-primary mt-[32px] mb-[2px]'>{price.option}</p>
-                <h2 className='font-primary text-[44px] group-hover:text-white leading-[36px] font-bold text-text'>{price.pricing}</h2>
+                <h2 className='font-primary md:text-[44px] text-[34px] group-hover:text-white leading-[36px] font-bold text-text'>{price.pricing}</h2>
                 <p className='font-secondary text-[18px] group-hover:text-white leading-[18px] font-medium text-description mt-[14px] mb-[40px]'>Annual pricing <span className='text-primary group-hover:text-secondary'>{price.save}</span>
                   </p>
                 <ul className='text-left mb-[40px] '>
