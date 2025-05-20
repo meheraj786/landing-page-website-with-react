@@ -46,7 +46,7 @@ const Works = () => {
           {
             works.map((work)=>(
               <div className="group card text-center md:text-left cursor-pointer hover:bg-primary mx-auto mb-5 md:mb-0  border-1 rounded-[20px] text-text border-[#DCE7FE] p-[36px] w-[330px]">
-                <img className='mx-auto' src={work.img} alt="" />
+                <img className='mx-auto md:mr-auto md:ml-0 ' src={work.img} alt="" />
                 <h3 className='font-primary text-[22px] group-hover:text-white mt-[26px] mb-[8px] font-bold  leading-[34px] '>{work.title}</h3>
                 <p className='font-secondary text-[16px] font-regular mb-[26px] leading-[26px] group-hover:text-white text-description'>{work.description}</p>
                 <a className='group-hover:text-white flex justify-center md:justify-start gap-2 text-blue-900' href="#">{work.link} <span> <MdiLightArrowRight/> </span> </a>

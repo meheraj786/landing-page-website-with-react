@@ -160,13 +160,13 @@ const features=[
           </div>
           </div>
         </div>
-        <div className="stats-right text-center nd:text-left mt-[90px] md:mt-0 md:w-[40%]">
+        <div className="stats-right text-center md:text-left mt-[90px] md:mt-0 md:w-[40%]">
           <h2 className='font-primary mb-[64px] font-bold text-text leading-[58px] text-center md:text-left tracking-[-1px] md:text-[46px] text-[36px] max-w-[553px]' >We provide features for your Business</h2>
   <Flex className="md:justify-center justify-center md:gap-x-[96px] gap-x-9 gap-y-[40px] md:items-end">
   {
     features.map((feature)=>(
       <div className="feature-card w-[225px]">
-        <img className='mx-auto' src={feature.img} alt="" />
+        <img className='mx-auto md:mr-auto md:ml-0' src={feature.img} alt="" />
         <h3 className='mt-[14px] mb-[6px] text-[22px] font-primary font-bold leading-[34px] tracking-[-0.5%] text-text'>{feature.title}</h3>
         <p className='text-[22px] font-secondary text-regular leading-[32px]  text-description'>{feature.description}</p>
       </div>
