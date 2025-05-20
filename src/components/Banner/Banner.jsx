@@ -8,10 +8,10 @@ const Banner = () => {
     <div className="relative bg-[url(assets/banner.png)] pt-[195px] pb-[456px] bg-cover bg-center bg-no-repeat">
       <Container>
         <Flex className="flex-col text-white justify-center">
-          <h1 className="w-full max-w-[796px] font-primary text-[56px] font-bold text-center mb-5">
+          <h1 className="md:w-full md:max-w-[796px] font-primary text-[56px] font-bold text-center mb-5">
             Get your work done with Management Tool
           </h1>
-          <p className="w-full max-w-[467px] font-secondary text-[18px] font-bold text-center">
+          <p className="md:w-full md:max-w-[467px] font-secondary text-[18px] font-bold text-center">
             The world's first project management platform that connects everything
           </p>
         </Flex>
