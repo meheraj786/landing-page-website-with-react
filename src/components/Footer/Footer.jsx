@@ -25,15 +25,15 @@ const Footer = () => {
   ];
 
   return (
-    <div className="footer pt-[124px]">
+    <div className="footer text-center md:text-left pt-[124px]">
       <Container>
-        <Flex className="justify-between pb-[86px]">
+        <Flex className="md:justify-between justify-center pb-[86px]">
           <div>
-            <img src={logo} alt="" />
+            <img className="mx-auto md:ml-0 md:mr-auto" src={logo} alt="" />
             <p className="text-4 text-description w-[263px] mt-[26px] mb-[24px]">
               Build a modern and creative website with Innovate.
             </p>
-            <Flex className="gap-[6px]">
+            <Flex className="gap-[6px] justify-center md:justify-start mb-9 md:mb-0">
               <div className="text-[#645E76] px-[13px] py-[13px] rounded-full bg-[#EEEEEE] hover:bg-description cursor-pointer hover:text-white">
                 <FaGoogle />
               </div>
@@ -49,7 +49,7 @@ const Footer = () => {
             </Flex>
           </div>
           <div>
-            <Flex className="justify-between items-start gap-[80px]">
+            <Flex className="md:justify-between items-start md:gap-[80px] gap-[40px] mb-9 md:mb-0 justify-center">
               {listItems.map((items) => {
                 return (
                   <ul className="text-description">
@@ -73,7 +73,7 @@ const Footer = () => {
             <h4 className="text-[18px] font-bold text-text">
               Get Latest Updates
             </h4>
-            <p className="w-[285px] mt-[18px] text-description mb-[32px]">
+            <p className="max-w-[285px] mt-[18px] text-description mb-[32px]">
               Subscribe to our newsletter and get many interesting things every
               week
             </p>

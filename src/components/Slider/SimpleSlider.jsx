@@ -67,7 +67,7 @@ export default function SimpleSlider() {
     {
       content: (
         <div className="pt-[70px] rounded-[20px]">
-          <div className="review relative rounded-[20px] bg-white p-5 pt-[50px] md:pt-0 md:p-[50px]">
+          <div className="review relative rounded-[20px] bg-white p-5 pt-[50px] md:pt-[64px] md:p-[50px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] z-10 left-[48px] rounded-full"></div>
             <p className="text-description text-[22px] leading-[44px] md:w-[567px] font-secondary">
               “Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. 1
@@ -87,7 +87,7 @@ export default function SimpleSlider() {
     {
       content: (
         <div className="h-[426px] pt-[70px]">
-          <div className="review relative rounded-[20px] bg-white p-5 pt-[50px] md:pt-0 md:p-[50px]">
+          <div className="review md:pt-[64px] relative rounded-[20px] bg-white p-5 pt-[50px]  md:p-[50px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] z-10 left-[48px] rounded-full"></div>
             <p className="text-description text-[22px] leading-[44px] md:w-[567px] font-secondary">
               “Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. 2
@@ -107,7 +107,7 @@ export default function SimpleSlider() {
     {
       content: (
         <div className="h-[426px] pt-[70px]">
-          <div className="review relative rounded-[20px] bg-white p-5 pt-[50px] md:pt-0 md:p-[50px]">
+          <div className="review md:pt-[64px] relative rounded-[20px] bg-white p-5 pt-[50px]  md:p-[50px]">
             <div className="circle w-[124px] h-[124px] bg-[#C4C4C4] border-10 border-[#F7F7FC] absolute top-[-80px] z-10 left-[48px] rounded-full"></div>
             <p className="text-description text-[22px] leading-[44px] md:w-[567px] font-secondary">
               “Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. 3

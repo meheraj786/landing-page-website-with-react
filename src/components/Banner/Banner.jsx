@@ -15,13 +15,13 @@ const Banner = () => {
             The world's first project management platform that connects everything
           </p>
         </Flex>
-        <Flex className="relative mt-8 mb-[60px] md:mb-[98px] w-full max-w-[480px] mx-auto">
+        <Flex className="relative mt-8 mb-[60px] md:mb-[98px] px-9 md:px-0 md:max-w-[480px] mx-auto">
           <input
             className="py-5 font-secondary outline-none pl-6 bg-white rounded-[6px] w-full"
             type="text"
             placeholder="Your business email"
           />
-          <button className="px-7 right-2 py-[15px] bg-secondary hover:bg-primary hover:text-white cursor-pointer text-text font-secondary rounded-[6px] absolute">
+          <button className="px-7 md:right-2 right-10 py-[15px] bg-secondary hover:bg-primary hover:text-white cursor-pointer text-text font-secondary rounded-[6px] absolute">
             Try for free
           </button>
         </Flex>
