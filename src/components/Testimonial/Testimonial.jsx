@@ -9,7 +9,7 @@ import SimpleSlider from '../Slider/SimpleSlider'
 
 const Testimonial = () => {
   return (
-    <div className="testimonial py-[200px] bg-[#F4FAFA]">
+    <div className="testimonial md:py-[200px] py-[100px] bg-[#F4FAFA]">
       <Container>
         <Flex className="justify-between flex-col md:flex-row">
         <div className="testimonial-left text-center md:text-left md:w-[40%]">

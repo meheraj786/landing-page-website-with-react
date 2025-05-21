@@ -54,7 +54,7 @@ const features=[
   },
 ]
   return (
-    <div className="content pt-[336px]">
+    <div className="content md:pt-[336px] pt-[150px]">
       <Container>
       <Flex className="md:justify-between text-center md:text-left justify-center items-start">
         <h2 className='text-4xl md:text-5xl max-w-[504px] font-primary font-bold text-text leading-[38px] md:leading-[48px] mb-3 md:mb-0 tracking-[-1px]'>How simple is it to use our platform?</h2>

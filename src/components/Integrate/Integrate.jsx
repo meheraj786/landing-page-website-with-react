@@ -26,7 +26,7 @@ const Integrate = () => {
       <Flex className="justify-between gap-0">
         <div className="integrate-left text-center md:text-left md:w-[40%]">
           <p className='text-[20px] text-center md:text-left font-secondary font-medium text-orng'>Integrations</p>
-          <h2 className='md:text-[46px] md:w-full w-[70%] mx-auto text-center md:text-left text-[36px] font-bold mt-[4px] mb-[20px] font-primary leading-[58px] text-text'>Easily integrate with your favorite apps</h2>
+          <h2 className='md:text-[46px] md:w-full w-[80%] mx-auto text-center md:text-left text-[36px] font-bold mt-[4px] mb-[20px] font-primary leading-[58px] text-text'>Easily integrate with your favorite apps</h2>
           <p className='md:text-[18px] px-3 md:px-0 text-4 font-secondary font-bold  mb-[40px] leading-[32px] text-center md:text-left text-description'>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.</p>
           <Button className="text-white">Get Started</Button>
         </div>

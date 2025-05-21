@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="navbar bg-primary md:bg-transparent fixed z-[9999] font-secondary md:absolute md:py-8
     w-full">
     <Container>
-      <Flex className="justify-between w-full py-9 md:py-0 inline-block md:flex md:items-center items-start md:flex-row md:bg-[transparent]" >
+      <Flex className="justify-between w-full py-3 md:py-0 inline-block md:flex md:items-center items-start md:flex-row md:bg-[transparent]" >
         <Flex className="justify-between px-3 items-center">
           <Logo/>
           {show ? <RxCross2 onClick={()=>setShow(!show)}  className='md:hidden text-4xl text-white' />
