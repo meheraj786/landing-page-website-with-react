@@ -56,7 +56,7 @@ const features=[
   return (
     <div className="content md:pt-[336px] pt-[150px]">
       <Container>
-      <Flex className="md:justify-between text-center md:text-left justify-center items-start">
+      <Flex className="md:justify-around text-center md:text-left justify-center items-start">
         <h2 className='text-4xl md:text-5xl max-w-[504px] font-primary font-bold text-text leading-[38px] md:leading-[48px] mb-3 md:mb-0 tracking-[-1px]'>How simple is it to use our platform?</h2>
         <p className='text-description max-w-[530px] leading-[32px] tracking-[-1px] text-[16px] md:text-[18px] font-secondary'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
       </Flex>
