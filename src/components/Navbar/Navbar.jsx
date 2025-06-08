@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from '../Container/Container'
 import Flex from '../Flex/Flex'
 import Logo from '../Logo/Logo';
@@ -11,9 +11,29 @@ const Navbar = () => {
   const [show, setShow]= useState(false)
   const [showBg, setShowBg]= useState(false)
 
+
+  useEffect(() => {
+
+    window.addEventListener("scroll", ()=>{
+
+      window.scrollY>100 ? setShowBg(true) : setShowBg(false)
+    }
+  )
+    
+  
+    
+  }, [])
+  
+
   return (
-    <div className="navbar  top-0 bg-primary md:bg-transparent fixed z-[9999] font-secondary md:fixed md:py-8
-    w-full">
+<div
+  className={
+    `navbar top-0 fixed z-[9999] font-secondary md:fixed md:py-8 w-full ` +
+    (showBg ? "bg-primary" : "md:bg-transparent")
+  }
+>
+
+
     <Container>
       <Flex className="justify-between w-full py-3 md:py-0 inline-block md:flex md:items-center items-start md:flex-row md:bg-[transparent]" >
         <Flex className="justify-between px-3 items-center">
