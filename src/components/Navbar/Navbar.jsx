@@ -9,9 +9,10 @@ import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
   const [show, setShow]= useState(false)
+  const [showBg, setShowBg]= useState(false)
 
   return (
-    <div className="navbar bg-primary md:bg-transparent fixed z-[9999] font-secondary md:absolute md:py-8
+    <div className="navbar  top-0 bg-primary md:bg-transparent fixed z-[9999] font-secondary md:fixed md:py-8
     w-full">
     <Container>
       <Flex className="justify-between w-full py-3 md:py-0 inline-block md:flex md:items-center items-start md:flex-row md:bg-[transparent]" >
